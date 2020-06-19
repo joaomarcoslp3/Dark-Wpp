@@ -16,7 +16,7 @@
       }
       body {
         color: #FFF;
-          font-family: Florentia Regular,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif
+        font-family: Florentia Regular,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif
       }
       :root {
         --active-tab-marker: #00af9c;
@@ -130,6 +130,7 @@
         --checkbox-mark: #131217;
         --checkbox-mark-rgb: 16,29,36;
         --compose-background: #131217;
+        --compose-border: #131217;
         --compose-background-rgb: 16,29,36;
         --compose-background-focused: #203946;
         --compose-background-focused-rgb: 32,57,70;
@@ -198,6 +199,7 @@
         --input-placeholder: #6a7276;
         --input-placeholder-rgb: 106,114,118;
         --intro-background: #040406;
+        --intro-secondary: #FFF;
         --intro-background-rgb: 34,46,53;
         --intro-border: #054740;
         --intro-border-rgb: 5,71,64;
@@ -354,6 +356,7 @@
         --status-secondary-rgb: 255,255,255;
         --status-secondary-stronger: #b3b3b3;
         --status-secondary-stronger-rgb: 179,179,179;
+        --startup-background: black;
         --success: #00af9c;
         --success-rgb: 0,175,156;
         --suspicious-background: rgba(239,105,122,0.8);
@@ -414,8 +417,5 @@
       }
       .m61XR {
           font-size: 14px
-      }
-      body #startup {
-          background-color: black;
       }
 }
