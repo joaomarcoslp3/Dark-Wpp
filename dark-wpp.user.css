@@ -502,6 +502,6 @@
 		font-size: 14px;
 	}
 	html[dir] ._3qx7_ {
-		background-color: black;
+		background-color: var(--panel-header-background);
 	}
 }
