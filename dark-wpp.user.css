@@ -2,7 +2,7 @@
 @name           dark-wpp
 @namespace      github.com/joaomarcoslp3
 @license        MIT LICENSE
-@version        1.0.2
+@version        1.0.3
 @description    A custom css from WhatsApp that implements a dark mode.
 @homepageURL    https://github.com/joaomarcoslp3/dark-wpp
 @preprocessor   default
@@ -130,9 +130,9 @@
 		--checkbox-background-rgb: 0, 175, 156;
 		--checkbox-mark: #131217;
 		--checkbox-mark-rgb: 16, 29, 36;
-		--compose-background: #131217;
+		--compose-input-background: #131217;        
 		--compose-primary: #fff;
-		--compose-border: #131217;
+		--compose-input-border: #131217;
 		--compose-background-rgb: 16, 29, 36;
 		--compose-background-focused: #203946;
 		--compose-background-focused-rgb: 32, 57, 70;
