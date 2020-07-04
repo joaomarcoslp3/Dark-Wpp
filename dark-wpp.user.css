@@ -9,7 +9,7 @@
 @author         João Marcos Lopes Pinto (joaomarcoslp3@gmail.com)
 ==/UserStyle== */
 
-@-moz-document domain("https://web.whatsapp.com/") {
+@-moz-document url("https://web.whatsapp.com/")  {
 	html[dir] body {
 		background-image: none;
 		background-color: var(--app-background);
