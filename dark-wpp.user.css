@@ -101,11 +101,12 @@
 		--button-bubble: rgba(0, 175, 156, 0.7);
 		--button-bubble-rgb: 0, 175, 156;
 		--button-primary: #101d24;
-		--button-primary-rgb: 16, 29, 36;
+		--button-primary-rgb: 16, 29,Wx 36;
 		--button-primary-background: #00af9c;
 		--button-primary-background-rgb: 0, 175, 156;
 		--button-primary-background-hover: #00c3ae;
 		--button-primary-background-hover-rgb: 0, 195.4, 174.18514;
+		--button-plain-background: rgba(241, 241, 242, 0.05)
 		--button-round-background: #00af9c;
 		--button-round-background-rgb: 0, 175, 156;
 		--button-secondary: #00af9c;
