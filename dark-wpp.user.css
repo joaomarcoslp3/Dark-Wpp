@@ -329,6 +329,7 @@
 		--quick-action-button-background-rgb: 8, 14, 18;
 		--rich-text-panel-background: #0d0c11;
 		--rich-text-panel-background-rgb: 28, 40, 47;
+        --search-input-background: #131217;
 		--secondary: rgba(241, 241, 242, 0.6);
 		--secondary-rgb: 241, 241, 242;
 		--secondary-light: rgba(241, 241, 242, 0.25);
@@ -508,4 +509,11 @@
 	.wPvaz{
 		background-color: var(--compose-input-background);
 	}
+    html[dir] ._22PcK {
+        background-color: #040406;
+    }
+    html[dir] ._22PcK:after {
+        background-color: #040406;
+        border-bottom: 1px solid #040406;
+    }
 }
