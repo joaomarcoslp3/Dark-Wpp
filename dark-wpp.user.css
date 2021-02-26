@@ -64,7 +64,7 @@
 		--border-panel-rgb: 40, 51, 58;
 		--border-strong: #343f45;
 		--border-strong-rgb: 52, 63, 69;
-		--border-stronger: rgba(241, 241, 242, 0.06);
+		--border-stronger: #040406;
 		--border-stronger-rgb: 241, 241, 242;
 		--bubble-meta: rgba(241, 241, 242, 0.6);
 		--bubble-meta-rgb: 241, 241, 242;
@@ -331,6 +331,7 @@
 		--rich-text-panel-background: #0d0c11;
 		--rich-text-panel-background-rgb: 28, 40, 47;
         --search-input-background: #131217;
+        --search-container-background: #040404;
 		--secondary: rgba(241, 241, 242, 0.6);
 		--secondary-rgb: 241, 241, 242;
 		--secondary-light: rgba(241, 241, 242, 0.25);
