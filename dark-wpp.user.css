@@ -2,7 +2,7 @@
 @name           dark-wpp
 @namespace      github.com/joaomarcoslp3
 @license        MIT LICENSE
-@version        1.0.7
+@version        1.0.8
 @description    A custom css from WhatsApp that implements a dark mode.
 @homepageURL    https://github.com/joaomarcoslp3/dark-wpp
 @preprocessor   default
@@ -117,6 +117,8 @@
 		--button-secondary-background-hover-rgb: 241, 241, 242;
 		--button-secondary-hover: #00af9c;
 		--button-secondary-hover-rgb: 0, 175, 156;
+        --button-secondary-border: #242d32;
+        --button-secondary-border-rgb: 36,45,50;
 		--chat-marker: #999;
 		--chat-marker-rgb: 153, 153, 153;
 		--chat-marker-admin: #00af9c;
@@ -520,5 +522,8 @@
     }
     html[dir] ._1UuMR:after {
         background-color: #040406;
+    }
+    html[dir=ltr] .TZ8aZ .vQA16:after {
+        display: none !important
     }
 }
