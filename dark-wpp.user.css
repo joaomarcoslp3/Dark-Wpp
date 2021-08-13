@@ -2,7 +2,7 @@
 @name           dark-wpp
 @namespace      github.com/joaomarcoslp3
 @license        MIT LICENSE
-@version        1.0.8
+@version        1.0.9
 @description    A custom css from WhatsApp that implements a dark mode.
 @homepageURL    https://github.com/joaomarcoslp3/dark-wpp
 @preprocessor   default
@@ -14,11 +14,13 @@
 		background-image: none;
 		background-color: var(--app-background);
 	}
+    
 	body {
 		color: #fff;
 		font-family: Florentia Regular, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans,
 			sans-serif;
 	}
+    
 	:root {
 		--active-tab-marker: #00af9c;
 		--active-tab-marker-rgb: 0, 175, 156;
@@ -117,8 +119,8 @@
 		--button-secondary-background-hover-rgb: 241, 241, 242;
 		--button-secondary-hover: #00af9c;
 		--button-secondary-hover-rgb: 0, 175, 156;
-        --button-secondary-border: #242d32;
-        --button-secondary-border-rgb: 36,45,50;
+		--button-secondary-border: #242d32;
+		--button-secondary-border-rgb: 36,45,50;
 		--chat-marker: #999;
 		--chat-marker-rgb: 153, 153, 153;
 		--chat-marker-admin: #00af9c;
@@ -154,6 +156,8 @@
 		--drawer-background-deep: #080e12;
 		--drawer-background-deep-rgb: 8, 14, 18;
 		--drawer-gallery-background: #0d0c11;
+        --drawer-gallery-background-hover: #040406;
+        --drawer-gallery-background-active: #040406;
 		--drawer-gallery-background-rgb: 16, 29, 36;
 		--drawer-header-title: #d6d8d9;
 		--drawer-header-title-rgb: 214, 216, 217;
@@ -281,7 +285,7 @@
 		--panel-background-hover-rgb: 27, 39, 46;
 		--panel-background-lighter: #040404;
 		--panel-background-lighter-rgb: 26, 37, 44;
-    --panel-input-background: #131217;
+		--panel-input-background: #131217;
 		--panel-header-background: #040406;
 		--panel-header-background-rgb: 34, 46, 53;
 		--panel-header-icon: #9ea3a6;
@@ -412,6 +416,7 @@
 		--win32-title-primary: #fff;
 		--win32-title-primary-rgb: 255, 255, 255;
 	}
+    
 	a,
 	abbr,
 	acronym,
@@ -499,31 +504,39 @@
 	html[dir] ._3xpD_ {
 		background-color: #101d24;
 	}
+    
 	html[dir] ._3qx7_:after,
 	html[dir] ._1iFv8:after {
 		background-color: #040406;
 		border-bottom: 1px solid #040406;
 	}
+    
 	.m61XR {
 		font-size: 14px;
 	}
+    
 	html[dir] ._3qx7_ {
 		background-color: var(--panel-header-background);
 	}
+    
 	.wPvaz{
 		background-color: var(--compose-input-background);
 	}
+    
     html[dir] ._22PcK {
         background-color: #040406;
     }
+    
     html[dir] ._22PcK:after {
         background-color: #040406;
         border-bottom: 1px solid #040406;
     }
+    
     html[dir] ._1UuMR:after {
         background-color: #040406;
     }
-    html[dir=ltr] .TZ8aZ .vQA16:after {
+    
+    html[dir=ltr] ._1dEQH:after {
         display: none !important
     }
 }
