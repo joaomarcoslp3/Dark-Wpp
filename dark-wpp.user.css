@@ -218,6 +218,9 @@
 		--labels-icon-rgb: 241, 241, 242;
 		--link: #68bbe4;
 		--link-rgb: 104, 187, 228;
+        --link-preview: rgba(241,241,242,0.87);
+        --link-preview-lighter: rgba(241,241,242,0.6);
+        --link-preview-light: rgba(241,241,242,0.3);
 		--live-location-footer-background: rgba(16, 29, 36, 0.9);
 		--live-location-footer-background-rgb: 16, 29, 36;
 		--live-location-glow: rgba(37, 211, 102, 0.3);
