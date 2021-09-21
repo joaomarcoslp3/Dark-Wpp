@@ -2,7 +2,7 @@
 @name           dark-wpp
 @namespace      github.com/joaomarcoslp3
 @license        MIT LICENSE
-@version        1.1.0
+@version        1.1.1
 @description    A custom css from WhatsApp that implements a dark mode.
 @homepageURL    https://github.com/joaomarcoslp3/dark-wpp
 @preprocessor   default
@@ -218,9 +218,9 @@
 		--labels-icon-rgb: 241, 241, 242;
 		--link: #68bbe4;
 		--link-rgb: 104, 187, 228;
-        --link-preview: rgba(241,241,242,0.87);
-        --link-preview-lighter: rgba(241,241,242,0.6);
-        --link-preview-light: rgba(241,241,242,0.3);
+		--link-preview: rgba(241,241,242,0.87);
+		--link-preview-lighter: rgba(241,241,242,0.6);
+		--link-preview-light: rgba(241,241,242,0.3);
 		--live-location-footer-background: rgba(16, 29, 36, 0.9);
 		--live-location-footer-background-rgb: 16, 29, 36;
 		--live-location-glow: rgba(37, 211, 102, 0.3);
@@ -231,6 +231,7 @@
 		--location-cluster-background-rgb: 16, 29, 36;
 		--media-editor-control: #1c313f;
 		--media-editor-control-rgb: 28, 49, 63;
+		--media-editor-image-caption-input-background: #131217;
 		--media-viewer-background: rgba(16, 29, 36, 0.98);
 		--media-viewer-background-rgb: 16, 29, 36;
 		--media-viewer-button-background: #1c282f;
