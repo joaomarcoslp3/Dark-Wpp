@@ -4,6 +4,10 @@
   <img src="assets/dark-wpp.png" />
 </p>
 
+<p align="center">
+  Works better using the default dark mode as well.
+</p>
+
 <h2 align="center">Your eyes will ❤️ you.</h2>
 
 ## Installation
