@@ -2,7 +2,7 @@
 @name           dark-wpp
 @namespace      github.com/joaomarcoslp3
 @license        MIT LICENSE
-@version        1.1.1
+@version        2.0.0
 @description    A custom css from WhatsApp that implements a dark mode.
 @homepageURL    https://github.com/joaomarcoslp3/dark-wpp
 @preprocessor   default
@@ -340,6 +340,7 @@
 		--rich-text-panel-background: #0d0c11;
 		--rich-text-panel-background-rgb: 28, 40, 47;
         --search-input-background: #131217;
+        --search-input-container-background: #040406;
         --search-container-background: #040404;
 		--secondary: rgba(241, 241, 242, 0.6);
 		--secondary-rgb: 241, 241, 242;
@@ -652,6 +653,7 @@
 		--modal-backdrop-solid-rgb: 28, 40, 47;
 		--modal-background: #364147;
 		--modal-background-rgb: 54, 65, 71;
+        --navbar-background: #131217 !important;
 		--notification-biz-background: #1c282f;
 		--notification-biz-background-rgb: 28, 40, 47;
 		--notification-biz-text: #55fad9;
@@ -925,6 +927,9 @@
 	.wPvaz{
 		background-color: var(--compose-input-background);
 	}
+    .x1acz5yr {
+        background-color: #040406;
+    }
     
     html[dir] ._22PcK {
         background-color: #040406;
@@ -944,5 +949,15 @@
     }
     ._1ADa8 {
         background: #091e1f;
+    }
+    html[dir] .dark ._3yWey {
+        border-bottom: 1px solid #050506;
+    }
+
+    html[dir] ._3yWey {
+        background-color: #050506;
+    }
+    ._1Fm4m {
+        background-image: linear-gradient(#054740 17%, #0000 15%);
     }
 }
