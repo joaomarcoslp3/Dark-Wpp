@@ -54,7 +54,8 @@
 		--background-default-active: #040406;
 		--background-default-active-rgb: 32, 44, 50;
 		--background-default-hover: #050508;
-		--background-default-hover-rgb: 23, 35, 42;
+        	--background-default-hover-rgb: 23, 35, 42;
+	    	--background-lightest-hover: #050508;
 		--border-bubble: rgba(241, 241, 242, 0.06);
 		--border-bubble-rgb: 241, 241, 242;
 		--border-default: #1b282e;
